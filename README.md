@@ -12,13 +12,21 @@
 4. TODAS as facilidades do emissor gratuito devem estar presentes.
 
 a. importação de TXT (padrão SEBRAE ou padrão NFePHP)
+
 b. importação de XML
+
 c. duplicação de NFe
+
 d. cancelamento de NFe
+
 e. inutilização de faixa de números
+
 f. gerenciamento de notas emitidas
+
 g. download (exportação) de XML e TXT
+
 h. impressão de DANFE (podemos incluir DACCE, DACANC e DAINUT)
+
 i. (EXTRA) envio de emails aos destinatários
 
 # FASES
