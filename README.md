@@ -39,15 +39,16 @@
 > Menu SIMPLES superior e FIXO (padrão do Laravel)
 
 > Funcionalidades basicas. 
-> .. gerenciamento (e busca)
-> .. digitação manual de NFe
-> .. importação de TXT
-> .. importação de XML
-> .. envio
-> .. impressão de DANFE
-> .. cancelamento
-> .. carta de correção
-> .. inutilização de faixa de numeros
+
+> - gerenciamento (e busca)
+> - digitação manual de NFe
+> - importação de TXT
+> - importação de XML
+> - envio
+> - impressão de DANFE
+> - cancelamento
+> - carta de correção
+> - inutilização de faixa de numeros
 
 ## FASE 2
 
