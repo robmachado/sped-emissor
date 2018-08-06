@@ -53,3 +53,64 @@
 ## FASE 2
 
 A SER DISCUTIDA com os membros ATIVOS
+
+
+
+## DEPENDÊNCIAS (PHP)
+
+- php >= 7.1
+- [brazanation/documents](https://github.com/brazanation/php-documents)
+- [fideloper/proxy](https://github.com/fideloper/TrustedProxy)
+- [laravel/framework](https://github.com/laravel/framework)
+- [laravel/tinker](https://github.com/laravel/tinker)
+- [nfephp-org/sped-da](https://github.com/nfephp-org/sped-da)
+- [nfephp-org/sped-nfe](https://github.com/nfephp-org/sped-nfe)
+- [yajra/laravel-datatables-oracle](https://github.com/yajra/laravel-datatables)
+- [yoeunes/toastr](https://github.com/yoeunes/toastr)
+
+### Dev
+
+[filp/whoops](https://github.com/filp/whoops)
+[fzaninotto/faker](https://github.com/fzaninotto/Faker)
+[mockery/mockery](https://github.com/mockery/mockery)
+[nunomaduro/collision](https://github.com/nunomaduro/collision)
+[phpstan/phpstan](https://github.com/phpstan/phpstan)
+[phpunit/phpunit](https://github.com/sebastianbergmann/phpunit)
+[squizlabs/php_codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+
+## DEV DEPENDÊNCIAS (JS)
+
+- node.js
+- npm
+- @fortawesome/fontawesome
+- @fortawesome/fontawesome-free
+- @fortawesome/fontawesome-free-brands
+- @fortawesome/fontawesome-free-regular
+- @fortawesome/fontawesome-free-solid
+- axios
+- bootstrap
+- cross-env
+- datatables.net-autofill-bs4
+- datatables.net-bs4
+- datatables.net-buttons-bs4
+- datatables.net-colreorder-bs4
+- datatables.net-editor-bs4
+- datatables.net-fixedcolumns-bs4
+- datatables.net-fixedheader-bs4
+- datatables.net-keytable-bs4
+- datatables.net-responsive-bs4
+- datatables.net-rowgroup-bs4
+- datatables.net-rowreorder-bs4
+- datatables.net-scroller-bs4
+- datatables.net-select-bs4
+- jquery
+- jszip
+- laravel-mix
+- lodash
+- pdfmake
+- popper.js
+- toastr
+- vue
+
+
+
