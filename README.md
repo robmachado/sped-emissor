@@ -40,10 +40,10 @@
 
 > Funcionalidades basicas. 
 
-> - gerenciamento (e busca)
-> - digitação manual de NFe
-> - importação de TXT
-> - importação de XML
+> - gerenciamento (e busca) de NFe emitidas (com filtros)
+> - criação de NFe com digitação manual
+> - importação de TXT (carregamento em tela de digitação)
+> - importação de XML (carregamento em tela de digitação)
 > - envio
 > - impressão de DANFE
 > - cancelamento
