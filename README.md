@@ -58,6 +58,8 @@ A SER DISCUTIDA com os membros ATIVOS
 
 ## DEPENDÊNCIAS (PHP)
 
+> NOTA: para saber para que servem essas dependências acesse os repositórios.
+
 - php >= 7.1
 - [brazanation/documents](https://github.com/brazanation/php-documents)
 - [fideloper/proxy](https://github.com/fideloper/TrustedProxy)
@@ -80,7 +82,7 @@ A SER DISCUTIDA com os membros ATIVOS
 
 ## DEV DEPENDÊNCIAS (JS)
 
-- node.js
+- NodeJS
 - npm
 - @fortawesome/fontawesome
 - @fortawesome/fontawesome-free
