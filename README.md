@@ -11,15 +11,15 @@
 3. Esse emissor não terá a intensão de SIMPLIFICAR nenhuma operação, nem se tornar um ERP !! O foco deve ser o de apenas replicar o EMISSOR GRATUITO, nada mais nada menos. Não queremos competir com nós mesmos. (como resultado desse trabalho as facilidades que serão criadas aqui poderão ser aproveitadas em seus projetos pessoais)
 4. TODAS as facilidades do emissor gratuito devem estar presentes.
 
-. importação de TXT (padrão SEBRAE ou padrão NFePHP)
-. importação de XML
-. duplicação de NFe
-. cancelamento de NFe
-. inutilização de faixa de números
-. gerenciamento de notas emitidas
-. download (exportação) de XML e TXT
-. impressão de DANFE (podemos incluir DACCE, DACANC e DAINUT)
-. (EXTRA) envio de emails aos destinatários
+a. importação de TXT (padrão SEBRAE ou padrão NFePHP)
+b. importação de XML
+c. duplicação de NFe
+d. cancelamento de NFe
+e. inutilização de faixa de números
+f. gerenciamento de notas emitidas
+g. download (exportação) de XML e TXT
+h. impressão de DANFE (podemos incluir DACCE, DACANC e DAINUT)
+i. (EXTRA) envio de emails aos destinatários
 
 # FASES
 
