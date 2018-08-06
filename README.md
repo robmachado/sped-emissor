@@ -70,13 +70,13 @@ A SER DISCUTIDA com os membros ATIVOS
 
 ### Dev
 
-[filp/whoops](https://github.com/filp/whoops)
-[fzaninotto/faker](https://github.com/fzaninotto/Faker)
-[mockery/mockery](https://github.com/mockery/mockery)
-[nunomaduro/collision](https://github.com/nunomaduro/collision)
-[phpstan/phpstan](https://github.com/phpstan/phpstan)
-[phpunit/phpunit](https://github.com/sebastianbergmann/phpunit)
-[squizlabs/php_codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+- [filp/whoops](https://github.com/filp/whoops)
+- [fzaninotto/faker](https://github.com/fzaninotto/Faker)
+- [mockery/mockery](https://github.com/mockery/mockery)
+- [nunomaduro/collision](https://github.com/nunomaduro/collision)
+- [phpstan/phpstan](https://github.com/phpstan/phpstan)
+- [phpunit/phpunit](https://github.com/sebastianbergmann/phpunit)
+- [squizlabs/php_codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 
 ## DEV DEPENDÊNCIAS (JS)
 
