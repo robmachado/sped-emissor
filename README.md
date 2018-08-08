@@ -20,6 +20,11 @@
   - impressão de DANFE (podemos incluir DACCE, DACANC e DAINUT)
   - (EXTRA) envio de emails aos destinatários
 
+> NOTA: servirá APENAS para NFe modelo 55 (não apto a NFCe)
+
+> NOTA: Todos os testes básicos (sem envios reais) serão feitos com dados FAKE e operações MOKADAS. Após as estruturas estarem finalizadas serão iniciados os testes REAIS e nesse ponto cada colaborador deverá possuir um certificado válido para a realização dos testes em ambiente de homolocação com comunicação com as SEFAZ.
+
+
 # FASES
 
 ## FASE 1
