@@ -61,8 +61,8 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="{{ url('accounts/1/certificate') }}">Certificados</a>
                                 <a class="dropdown-item" href="{{ url('accounts/1/parameters') }}">Parâmetros</a>
-                                <a class="dropdown-item" href="#">Importar arquivos</a>
-                                <a class="dropdown-item" href="#">Download Backup</a>
+                                <a class="dropdown-item" href="{{ url('imports') }}">Importar arquivos</a>
+                                <a class="dropdown-item" href="{{ url('backup') }}">Download Backup</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -70,8 +70,8 @@
                                     {{ __('Ajuda') }} <span class="caret"></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Sobre</a>
-                                <a class="dropdown-item" href="#">Buscar informações do Ambiente</a>
+                                <a class="dropdown-item" href="{{ url('help/help') }}">Sobre</a>
+                                <a class="dropdown-item" href="{{ url('help/status') }}">Buscar informações do Ambiente</a>
                             </div>
                         </li>
                     </ul>
