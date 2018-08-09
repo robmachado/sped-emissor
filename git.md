@@ -25,7 +25,7 @@ git remote add upstream git@github.com:nfephp-org/sped-emissor.git
 
 8. atualise seu repositorio local com seu original do github
 ```
-git fetch upstream
+git pull origin
 ```
 
 9. atualize o repositório principal (local)
