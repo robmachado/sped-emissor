@@ -8,9 +8,8 @@ class CreatePartnersTable extends Migration
 {
     /**
      * Creates partners table
-     * Tabela de parceiros (clientes e fornecedores)
+     * Tabela de parceiros (clientes, fornecedores e transportadoras)
      * ou seja os destinátios das NFe
-     *
      * @return void
      */
     public function up()

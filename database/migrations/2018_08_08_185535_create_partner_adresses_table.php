@@ -8,7 +8,7 @@ class CreatePartnerAdressesTable extends Migration
 {
     /**
      * Creates Partners table
-     * Tabela de parceiros de negocios
+     * Tabela de endereços dos parceiros de negocios
      * podem ser Clientes, Fornecedores ou transportadoras
      * @return void
      */
