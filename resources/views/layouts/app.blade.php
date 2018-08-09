@@ -41,9 +41,8 @@
                                     {{ __('Emitente') }} <span class="caret"></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Dados do Emitente</a>
-                                <a class="dropdown-item" href="#">Selecionar Emitente</a>
-                                <a class="dropdown-item" href="#">Sair do Emitente</a>
+                                <a class="dropdown-item" href="{{ url('accounts/1') }}">Dados do Emitente</a>
+                                <a class="dropdown-item" href="{{ url('accounts') }}">Selecionar Emitente</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -51,9 +50,8 @@
                                     {{ __('Cadastros') }} <span class="caret"></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Clientes</a>
-                                <a class="dropdown-item" href="#">Produtos</a>
-                                <a class="dropdown-item" href="#">Transportadoras</a>
+                                <a class="dropdown-item" href="{{ url('partners') }}">Parceiros</a>
+                                <a class="dropdown-item" href="{{ url('products') }}">Produtos</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -61,13 +59,10 @@
                                     {{ __('Sistema') }} <span class="caret"></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Quadro de Avisos</a>
-                                <a class="dropdown-item" href="#">Certificados</a>
-                                <a class="dropdown-item" href="#">Parâmetros</a>
+                                <a class="dropdown-item" href="{{ url('accounts/1/certificate') }}">Certificados</a>
+                                <a class="dropdown-item" href="{{ url('accounts/1/parameters') }}">Parâmetros</a>
                                 <a class="dropdown-item" href="#">Importar arquivos</a>
-                                <a class="dropdown-item" href="#">Backup</a>
-                                <a class="dropdown-item" href="#">Restauração</a>
-                                <a class="dropdown-item" href="#">Relatório Gerencial</a>
+                                <a class="dropdown-item" href="#">Download Backup</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
