@@ -10,7 +10,7 @@ cd /sua pasta de desenvolvimento/
 
 5. faça um clone local do seu repositório
 ```
-git clone git@github.com:&lt;seu user no git&gt;/sped-emissor.git
+git clone git@github.com:<seu user no git>/sped-emissor.git
 ```
 
 6. mova-se para dentro da pasta que acabou de criar
@@ -46,3 +46,22 @@ git push origin master
 
 Os passos de 8 a 11 devem ser repetidos cada vez que você for codar e antes de você começar.
 Isso manterá sua cópia local sempre sincronizada com o repositório principal e estará recebendo todas as atualizações feitas por outros colaboradores.
+
+
+## Como submeter codigo
+
+1. Antes de enviar qualuqer codigo, execute no terminal
+```
+composer phpcbf
+```
+```
+composer phpcs
+```
+Se algum erro for relatado você deve corrigi-lo. Esse processo faz com que os codigos dentro da pasta app atendam ao PSR-2.
+
+
+2. Evite enviar muitas alterações de cada vez. E atenha-se ao que você se propos a fazer e declarou na ISSUE
+
+3. Sempre teste seu trabalho antes de enviar!
+
+4. Testes unitários são muito bem vindos (mas não são obrigatórios)
