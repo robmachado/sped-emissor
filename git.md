@@ -23,7 +23,7 @@ cd sped-emissor
 git remote add upstream git@github.com:nfephp-org/sped-emissor.git
 ```
 
-8. atualise seu repositorio local com seu original do github
+8. atualize seu repositorio local com seu original do github
 ```
 git pull origin
 ```
@@ -50,14 +50,15 @@ Isso manterá sua cópia local sempre sincronizada com o repositório principal 
 
 ## Como submeter codigo
 
-1. Antes de enviar qualuqer codigo, execute no terminal
+1. Antes de enviar qualquer código, execute no terminal
 ```
 composer phpcbf
 ```
+e também 
 ```
 composer phpcs
 ```
-Se algum erro for relatado você deve corrigi-lo. Esse processo faz com que os codigos dentro da pasta app atendam ao PSR-2.
+Se algum erro for relatado você deve corrigi-lo. Esse processo faz com que os códigos dentro da pasta app atendam ao PSR-2.
 
 
 2. Evite enviar muitas alterações de cada vez. E atenha-se ao que você se propos a fazer e declarou na ISSUE
@@ -65,3 +66,5 @@ Se algum erro for relatado você deve corrigi-lo. Esse processo faz com que os c
 3. Sempre teste seu trabalho antes de enviar!
 
 4. Testes unitários são muito bem vindos (mas não são obrigatórios)
+
+5. Ao criar classe e métodos DOCUMENTE, para facilitar os outros entenderem o que você fez.
