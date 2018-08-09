@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "nfephp-org/sped-emissor",
+    "description": "Emissor de NFe.",
+    "keywords": ["NFe", "nfephp"],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -54,7 +54,10 @@
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover"
-        ]
+        ],
+        "phpcbf": "vendor/bin/phpcbf --standard=psr2 app/",
+        "phpcs": "vendor/bin/phpcs --standard=psr2 app/",
+        "phpstan": "vendor/bin/phpstan analyse app/ --level 7"
     },
     "config": {
         "preferred-install": "dist",

@@ -7,7 +7,8 @@ use Illuminate\Database\Migrations\Migration;
 class CreateAccountAdressesTable extends Migration
 {
     /**
-     * Run the migrations.
+     * Create account adress
+     * Tabela do endereço dos emitentes
      *
      * @return void
      */
