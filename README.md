@@ -24,6 +24,11 @@
 
 > NOTA: Todos os testes básicos (sem envios reais) serão feitos com dados FAKE e operações MOKADAS. Após as estruturas estarem finalizadas serão iniciados os testes REAIS e nesse ponto cada colaborador deverá possuir um certificado válido para a realização dos testes em ambiente de homolocação com comunicação com as SEFAZ.
 
+## IMPORTANTE
+
+Leia o auxilio abaixo se for um colaborador do projeto, e não estiver familiarizado com o uso do GIT.
+
+[**USANDO O GIT**](git.md)
 
 # FASES
 
