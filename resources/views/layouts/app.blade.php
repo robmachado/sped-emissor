@@ -29,11 +29,11 @@
                                     {{ __('Notas Fiscais') }} <span class="caret"></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Emitir Nova Nota</a>
-                                <a class="dropdown-item" href="#">Gerenciar Notas</a>
-                                <a class="dropdown-item" href="#">Inutilização de Faixa</a>
-                                <a class="dropdown-item" href="#">Consultar Nota não cadastrada</a>
-                                <a class="dropdown-item" href="#">Cancelar Nota não cadastrada</a>
+                                <a class="dropdown-item" href="{{ url('nfes/create') }}">Emitir Nova Nota</a>
+                                <a class="dropdown-item" href="{{ url('nfes') }}">Gerenciar Notas</a>
+                                <a class="dropdown-item" href="{{ url('nfes/inut') }}">Inutilização de Faixa</a>
+                                <a class="dropdown-item" href="{{ url('nfes/consult') }}">Consultar Nota não cadastrada</a>
+                                <a class="dropdown-item" href="{{ url('nfes/1/cancel') }}">Cancelar Nota não cadastrada</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">

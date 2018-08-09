@@ -64,4 +64,24 @@ Route::get('help/status', function(){
     return view('help.status');
 });
 
+Route::get('nfes/create', function(){
+    return view('nfes.create');
+});
+
+Route::get('nfes', function(){
+    return view('nfes.index');
+});
+
+Route::get('nfes/1/cancel', function(){
+    return view('nfes.cancel');
+});
+
+Route::get('nfes/consult', function(){
+    return view('nfes.consult');
+});
+
+Route::get('nfes/inut', function(){
+    return view('nfes.inutilization');
+});
+
 //Route::get('/home', 'HomeController@index')->name('home');
