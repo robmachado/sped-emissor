@@ -48,4 +48,20 @@ Route::get('products/1', function(){
     return view('products.edit');
 });
 
+Route::get('imports', function(){
+    return view('imports.index');
+});
+
+Route::get('backup', function(){
+    return view('backup.index');
+});
+
+Route::get('help/help', function(){
+    return view('help.help');
+});
+
+Route::get('help/status', function(){
+    return view('help.status');
+});
+
 //Route::get('/home', 'HomeController@index')->name('home');

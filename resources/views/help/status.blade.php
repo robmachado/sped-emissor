@@ -5,9 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Parametros</div>
+                <div class="card-header">Status</div>
                 <div class="card-body">
-                    <p>Aqui colocar o form de edição ou inclusão de parametros operacionais</p>
+                    <p>Aqui colocar informações sobre o status de disponibilidade da SEFAZ</p>
                 </div>
             </div>
         </div>
