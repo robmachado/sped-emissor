@@ -7,6 +7,7 @@
 
 require('./bootstrap');
 
+window.swal = require('sweetalert2');
 window.Vue = require('vue');
 
 /**
@@ -15,8 +16,25 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('tabela', require('./components/Tabela.vue'));
+Vue.component('cnpj-cpf', require('./components/CnpjCpf.vue'));
+Vue.component('texto', require('./components/Texto.vue'));
+Vue.component('selecao', require('./components/Selecao.vue'));
+Vue.component('arq-upload', require('./components/ArqUpload.vue'));
+Vue.component('campo-data', require('./components/CampoData.vue'));
 
 const app = new Vue({
-    el: '#app'
+  el: '#app',
+  computed: {
+    cardWidth() {
+      let cardWidth = document.getElementsByClassName('card-body');
+      return cardWidth ? cardWidth[0].clientWidth - 40 : 0;
+    }
+  },
+  mounted() {
+    const paginas = document.getElementById('paginas');
+    if (paginas) {
+      paginas.style.marginTop = '10px';
+    }
+  }
 });
