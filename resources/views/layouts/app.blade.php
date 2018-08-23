@@ -119,4 +119,5 @@
 </body>
 <script src="{{ asset('js/app.js') }}"></script>
 @toastr_render
+@stack('scripts')
 </html>
