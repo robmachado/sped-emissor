@@ -16,13 +16,13 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('accounts', function(){
-    return view('accounts.index');
-});
+Route::get('accounts', 'AccountController@index');
 
-Route::get('accounts/1', function(){
-    return view('accounts.edit');
-});
+Route::get('accounts/{id}/edit', 'AccountController@edit');
+
+Route::put('accounts/{id}', 'AccountController@update');
+
+Route::delete('accounts/{id}', 'AccountController@destroy');
 
 Route::get('accounts/1/certificate', function(){
     return view('accounts.certificate');
